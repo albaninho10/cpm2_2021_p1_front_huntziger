@@ -48,6 +48,70 @@ li{
 
 .finder p{ 
     margin: 0px;
+    color: grey;
 }
 
+.localisation{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px grey;
+    border-radius: 15px;;
+    width: 400px;
+    margin-top: 30px;
+}
 
+.ping{
+    width: 50px;
+    height: 100%;
+    background-color: grey;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.city{
+    width: 220px;
+    height: 100%;
+}
+
+.city p{
+   margin-left: 10px;
+}
+
+.Button{
+    width: 130px;
+    height: 100%;
+    background-color: blue;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+.filtres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    margin-top: 35px;
+    height: 50px;
+}
+
+.filtres_all{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px grey;
+    border-radius: 50px;
+    height: 100%;
+    width: 190px;
+}
+
+.filtres_all div{
+    border-radius: 50px;
+    height: 100%;
+    width: 50px;
+    background-color: blue;
+}
+
+.infos{
+    color: grey;
+}
