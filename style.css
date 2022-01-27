@@ -115,3 +115,43 @@ li{
 .infos{
     color: grey;
 }
+
+.content-center-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content-left{
+    width: 790px;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.populaire{
+    width: 390px;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ToDoList :
+- Ajouter la V1 du CSS
+- ajouter les icones
+- Ajouter le formulaire
+- Ajouter les ombres
+- Ajouter les hover 
+
+- Faire le responsive
