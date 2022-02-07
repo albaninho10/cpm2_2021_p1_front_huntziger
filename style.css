@@ -110,6 +110,9 @@ li{
     height: 100%;
     width: 50px;
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infos{
@@ -125,14 +128,26 @@ li{
 
 .inner-content{
     width: 90%;
-    margin: auto    ;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inner-content h2{
+    margin: 0;
+}
+
+.align-hbg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .content-left{
     width: 720px;
     background-color: grey;
     border-radius: 25px;
-    
 }
 
 .populaire{
@@ -143,12 +158,86 @@ li{
 
 .box-sizing{
     display: flex;
-    flex-direction: row;
-    width: 180px;
+    flex-direction: column;
+    width: 200px;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-top: 30px;
 }
 
+.box-sizing p{
+    margin: 0;
+}
+
+.img-hebergements{
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img-sizing{
+    margin: 0px;
+    width: 100%;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-box{
+    height: 70px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.margin-text{
+    margin-top: 6px !important ;
+    margin-bottom: 6px !important ;
+}
+
+.etoile i{
+    font-size: 12px;
+    margin: 0px 0 !important;
+}
+
+.etoile{
+    width: 80px;
+    justify-content: space-between;
+}
+
+.box1{
+    background: url(img/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.box2{
+    background: url(img/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.box3{
+    background: url(img/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.box4{
+    background: url(img/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.box5{
+    background: url(img/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.box6{
+    background: url(img/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.box7{
+    background: url(img/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.box8{
+    background: url(img/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+
 .activite{
-    background-color: red   ;
+    background-color: red;
 }
 .inner-section{
     width: 100%;
@@ -160,17 +249,10 @@ li{
     height: 100%;
 }
 
-.cbg-image-1{
-    height: 200px;
-    background: url(img/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+
+.fas{
+    color: blue;
 }
-
-
-
-
-
-
-
 
 
 
