@@ -5,6 +5,9 @@ html{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
+body{
+    margin: 0;
+}
 
 #body{
     width: 1200px;
@@ -98,11 +101,17 @@ form button i{
 
 .filtration{
     display: flex;
-    width: 100%;
+    margin: auto;
     margin-top: 40px;
 }
 
-.globalFiltres{
+.filtrePart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.filtreText{
     font-weight: 600;
     font-size: 18px;
 }
@@ -465,7 +474,7 @@ footer{
 }
 
 
-
+/*************************************** RESPONSVE ***********************************/
 
 
 
@@ -476,6 +485,10 @@ footer{
     #body{
         width: 100%;
         margin: auto;
+    }
+
+    .main-content{
+        margin-top: 40px;
     }
 
     header{
@@ -491,6 +504,8 @@ footer{
     .header-logo{
         display: flex;
         justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
 
     ul{
@@ -504,6 +519,15 @@ footer{
         padding-right: 0;
     }
     
+    .finder{
+        width: 90%;
+        margin: auto;
+    }
+
+    #ville{
+        width: 200px;
+    }
+
     .buttonRecherche{
         visibility: hidden;
         display: none;
@@ -511,23 +535,106 @@ footer{
 
     .finder form button i{
         color: white;
-      
         display: block !important;
     }
 
     .filtration{
-        flex-wrap: wrap;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .filtretext{
+        width: 20%;
+    }
+
+    .filtreSeul{
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .information-div{
+        width: 90%;
+        margin: auto;
     }
 
     .content-center-row{
         flex-direction: column-reverse ;
     }
 
+    .populaire{
+        width: 100%;
+        border-radius: 0px;
+        padding-bottom: 20px;
+    }
+
     .content-left{
         width: auto;
+        border-radius: 0;
+        background-color: white;
+    }
+
+    .box-sizing{
+        width: 100%;
+    }
+
+    .align-hbg{
+        flex-direction: column;
+    }
+
+    .content-right{
+        width: 90%;
+    }
+
+    .box-sizing-2{
+        width: auto;
+    }
+
+    .inner-colone{
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .activite h2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .activie-img, .activie-img-small{
+        height: 150px !important;
+    }
+
+    .colonne-style, .small-2, .small-4{
+        margin: 20px 0 0 0 !important;
     }
 
     .footer-line{
         width: auto;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
     }
+
+    form button{
+        border-radius: 20px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li{
+        padding-bottom: 15px;
+        border-bottom: solid 2px rgb(211, 211, 211);
+    }
+
+    .li1{
+        border-bottom: solid 2px #0065FC;
+        color: #0065FC;
+    }
+
+
 }
