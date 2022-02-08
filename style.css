@@ -463,3 +463,71 @@ footer{
 .footer-section{
     width: 400px;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    #body{
+        width: 100%;
+        margin: auto;
+    }
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-menu{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    ul{
+        padding: 0;
+    }
+   
+    form{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .buttonRecherche{
+        visibility: hidden;
+        display: none;
+    }
+
+    .finder form button i{
+        color: white;
+      
+        display: block !important;
+    }
+
+    .filtration{
+        flex-wrap: wrap;
+    }
+
+    .content-center-row{
+        flex-direction: column-reverse ;
+    }
+
+    .content-left{
+        width: auto;
+    }
+
+    .footer-line{
+        width: auto;
+    }
+}
